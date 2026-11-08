@@ -41,8 +41,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=ju-aguilar_gestión-productos
-            -Dsonar.organization=ju-aguilar
+            -Dsonar.projectKey=ju-aguilar_examen_calidad_software_base
+            -Dsonar.organization=ju-aguilar-gestion-productos
             -Dsonar.python.coverage.reportPaths=coverage.xml
             -Dsonar.sources=inventario
             -Dsonar.tests=tests
